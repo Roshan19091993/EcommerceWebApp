@@ -1,0 +1,47 @@
+.rounded-r-half {
+    border-top-right-radius: 9999px;
+    border-bottom-right-radius: 9999px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.customShadow{
+    box-shadow: 0px 01px 10px rgba(0,0,0,0.1);
+}
+
+/*User Table*/
+.userTable {
+    @apply bg-white;
+}
+.userTable th{
+    @apply border text-base font-medium; 
+}
+.userTable td{
+    @apply border text-base text-center;
+}
+//*scrollbar hidden*/
+
+.scrollbar-hidden {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.scrollbar-hidden::-webkit-scrollbar {
+    display: none;
+}
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.fancy-text {
+  font-family: 'Pacifico', cursive;
+  font-size: 1.05rem; /* Increased font size to 20px */
+  color: #ffd700; /* Gold color */
+  font-weight: 700; /* Bold text */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+  padding: 0.25rem;
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}
+
+/* Silver border */
+.border-silver {
+  border-color: #c0c0c0; /* Silver color */
+}
+
